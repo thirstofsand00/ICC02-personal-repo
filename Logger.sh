@@ -1,3 +1,7 @@
 #!/bin/bash
 
-date  "Today is +%m-%d-%Y"
+date  "+%m-%d-%Y"
+
+user= whoami
+echo $user
+echo "Log Entry: Successful"
