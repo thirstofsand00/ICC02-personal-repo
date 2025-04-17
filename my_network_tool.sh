@@ -31,6 +31,17 @@ echo "7 - Traceroute to Host"
 #Exit
 echo "8 - Exit"
 
+#Show Callendar
+#echo "X - Show callendar"
+#
+#X)
+#       ncal
+
+#What day is today?
+#"Today is +%Y-%m-%d"
+
+
+
 
 
 read -p "Choose an option (1-8): " option
@@ -46,14 +57,14 @@ read -p "Choose an option (1-8): " option
         ping -c 4 "$host"
         ;;
     4) 
-        nmap -sn 192.168.1.1/24
+        nmap -sn 192.168.1.0/24
         ;;
     5) 
         read -p "Enter target for port scan: " target
         nmap "$target"
         ;;
     6) 
-        route -n
+        route -n get default
         ;;
     7) 
         read -p "Enter host for traceroute: " host
