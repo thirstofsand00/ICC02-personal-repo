@@ -1,7 +1,8 @@
 #!/bin/bash
 
-date  "+%m-%d-%Y"
+date +"%Y-%m-%d %H:%M:%S"
+echo "User: $USER"
 
-user= whoami
-echo $user
-echo "Log Entry: Successful"
+echo "Script executed successfully"
+
+echo "This will be appended to the file" >> user_activity.log
