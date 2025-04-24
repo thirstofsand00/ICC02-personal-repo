@@ -1,8 +1,14 @@
 #!/bin/bash
 
-date +"%Y-%m-%d %H:%M:%S"
-echo "User: $USER"
+LOG_FILE="./Logger Entry.log"
+#creation of the log file
 
-echo "Script executed successfully"
+#instead of using:
+#date +"%Y-%m-%d %H:%M:%S"
+#echo "User: $USER" 
+#echo "Script executed successfully" 
 
-echo "This will be appended to the file" >> user_activity.log
+DATE=$(date +"%Y-%m-%d %H:%M:%S")
+
+
+echo "[$DATE] User: $USER - Log entry: Script executed successfully " >> "$LOG_FILE"
