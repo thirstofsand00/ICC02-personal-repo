@@ -10,5 +10,4 @@ LOG_FILE="./Logger Entry.log"
 
 DATE=$(date +"%Y-%m-%d %H:%M:%S")
 
-
 echo "[$DATE] User: $USER - Log entry: Script executed successfully " >> "$LOG_FILE"
