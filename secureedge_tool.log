@@ -1,0 +1,114 @@
+[2025-05-14 17:54:33] Attempted OS detection on: 192.168.1.70
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-14 17:54 WEST
+Nmap scan report for 192.168.1.70
+Host is up (0.0050s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+3389/tcp open  ms-wbt-server
+7070/tcp open  realserver
+MAC Address: F4:39:09:4C:C4:7F (Hewlett Packard)
+Device type: general purpose|router
+Running: Linux 4.X|5.X, MikroTik RouterOS 7.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
+OS details: Linux 4.15 - 5.19, OpenWrt 21.02 (Linux 5.4), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 2.54 seconds
+[2025-05-14 17:55:08] Attempted OS detection on: 192.168.1.1
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-14 17:55 WEST
+Nmap scan report for 192.168.1.1
+Host is up (0.0029s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT   STATE    SERVICE
+23/tcp filtered telnet
+53/tcp open     domain
+80/tcp open     http
+MAC Address: 4C:F9:5D:2E:92:09 (Huawei Technologies)
+Device type: general purpose
+Running: Linux 3.X
+OS CPE: cpe:/o:linux:linux_kernel:3.5
+OS details: Linux 3.5
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 5.78 seconds
+[2025-05-14 17:55:29] Pinging host: 192.168.1.70
+PING 192.168.1.70 (192.168.1.70): 56 data bytes
+64 bytes from 192.168.1.70: icmp_seq=0 ttl=64 time=25.284 ms
+64 bytes from 192.168.1.70: icmp_seq=1 ttl=64 time=7.086 ms
+64 bytes from 192.168.1.70: icmp_seq=2 ttl=64 time=9.481 ms
+64 bytes from 192.168.1.70: icmp_seq=3 ttl=64 time=102.091 ms
+
+--- 192.168.1.70 ping statistics ---
+4 packets transmitted, 4 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 7.086/35.986/102.091/38.801 ms
+[2025-05-14 17:55:50] Initiated port scan on: 192.168.1.70
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-14 17:55 WEST
+[2025-05-14 17:59:06] User exited the tool.
+[2025-05-14 18:01:00] User exited the tool.
+[2025-05-14 18:23:03] Attempted OS detection on: 192.168.1.1
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-14 18:23 WEST
+Stats: 0:00:00 elapsed; 0 hosts completed (0 up), 1 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 100.00% done; ETC: 18:23 (0:00:00 remaining)
+Nmap scan report for 192.168.1.1
+Host is up (0.0025s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT   STATE    SERVICE
+23/tcp filtered telnet
+53/tcp open     domain
+80/tcp open     http
+MAC Address: 4C:F9:5D:2E:92:09 (Huawei Technologies)
+Device type: general purpose
+Running: Linux 3.X
+OS CPE: cpe:/o:linux:linux_kernel:3.5
+OS details: Linux 3.5
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 5.98 seconds
+[2025-05-14 18:23:58] Initiated network scan on subnet: 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-14 18:23 WEST
+Nmap scan report for 192.168.1.1
+Host is up (0.0060s latency).
+Nmap scan report for 192.168.1.66
+Host is up (0.00091s latency).
+Nmap scan report for 192.168.1.69
+Host is up (0.089s latency).
+Nmap scan report for 192.168.1.70
+Host is up (0.0044s latency).
+Nmap scan report for 192.168.1.78
+Host is up (0.051s latency).
+Nmap done: 256 IP addresses (5 hosts up) scanned in 40.25 seconds
+[2025-05-14 18:26:56] User exited the tool.
+[2025-05-15 00:27:17] Initiated network scan on subnet: 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-15 00:27 WEST
+Nmap scan report for 192.168.1.1
+Host is up (0.028s latency).
+Nmap scan report for 192.168.1.66
+Host is up (0.00100s latency).
+Nmap scan report for 192.168.1.70
+Host is up (0.0029s latency).
+Nmap done: 256 IP addresses (3 hosts up) scanned in 38.52 seconds
+[2025-05-15 00:28:40] Attempted OS detection on: 192.168.1.70
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-15 00:28 WEST
+Nmap scan report for 192.168.1.70
+Host is up (0.0055s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+3389/tcp open  ms-wbt-server
+7070/tcp open  realserver
+MAC Address: F4:39:09:4C:C4:7F (Hewlett Packard)
+Device type: general purpose|router
+Running: Linux 4.X|5.X, MikroTik RouterOS 7.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
+OS details: Linux 4.15 - 5.19, OpenWrt 21.02 (Linux 5.4), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 2.81 seconds
+[2025-05-15 00:29:24] User exited the tool.
