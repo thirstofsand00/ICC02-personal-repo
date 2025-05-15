@@ -7,9 +7,12 @@ log_entry() {
 }
 
 while true; do
-    echo "========================================"
-    echo " SecureEdge Inc. Network Monitoring Tool"
-    echo "========================================"
+   clear
+echo "======================================="
+echo "         S E C U R E   E D G E         "
+echo "======================================="
+echo "     Network Monitoring Tool Menu      "
+echo "---------------------------------------"
     echo "1 - Scan Network for Active Devices"
     echo "2 - Perform Port Scan on a Device"
     echo "3 - Ping a Host"
